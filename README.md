@@ -1,8 +1,10 @@
 In this project I review and update a system's Windows Defender antivirus and firewall configurations. 
 
-## Windows Defender Antivirus
+## Part 1: Windows Defender Antivirus
 
-First I will assess the current state of the **Windows Security** settings for the machine. 
+### Identify any current threats 
+
+First I will assess the current state of the system's antivirus and its configurations. 
 
 These settings can be found by navigating through: 
 	1. Click the Windows *Start* button 
@@ -20,7 +22,7 @@ The virus and threat protection window provides four different features:
 
 The **Current threats** section shows that the system has not been scanned for a few years and will need a scan as soon as possible. 
 
-## Step 2 - Update Threat Definitions
+### Update threat definitions
 
 Before running any scans, it is important to ensure that the system's **threat definitions** are up to date as these contain threat intelligence and rules on the latest vulnerabilities. Running a scan with outdated threat definitions could result in a threat going undetected. 
 
@@ -28,7 +30,7 @@ In the **Virus & threat protection updates** feature, I run a check for updates 
 
 ![](Images/Pasted%20image%2020230722132703.png)
 
-## Step 3 - Run an Antivirus Scans
+### Run antivirus scans
 
 Because of the length of time since the last scan, this system will benefit from a full scan. Windows Security provides tools for quick and custom scans that I will perform before the full scan. 
 
@@ -41,5 +43,5 @@ Performing a scan will scan files based on the newly updated threat definitions,
 
 ![](Images/Pasted%20image%2020230722132949.png)
 
-
+## Part 2: Windows Defender Firewall
 
