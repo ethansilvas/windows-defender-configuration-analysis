@@ -2,6 +2,12 @@
 
 In this project I review and update a system's Windows Defender antivirus and firewall configurations. To ensure that the system has the most up to date protections provided by Microsoft, I will analyze its antivirus and firewall settings and update them by performing tasks such as updating threat definitions and firewall rules. 
 
+## Table of Contents
+
+1. [Part 1: Windows Defender Antivirus](#part-1-windows-defender-antivirus)
+2. [Part 2: Windows Defender Firewall](#part-2-windows-defender-firewall)
+3. [Summary](#summary)
+
 ## Part 1: Windows Defender Antivirus
 
 ### Identify any current threats 
