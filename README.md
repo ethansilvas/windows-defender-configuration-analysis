@@ -119,6 +119,6 @@ In this project I analyzed and configured a system's existing Windows Defender A
 * Update Windows Defender Antivirus threat definitions
 * Run quick, full, and custom antivirus scans
 * Review antivirus threat history including quarantined and allowed threats
-- Configure allow/block firewall rules using Windows Defender Firewall with and without advanced security
+* Configure allow/block firewall rules using Windows Defender Firewall with and without advanced security
 
 Now that these configurations are up to date, the system is much better protected against the latest known vulnerabilities defined by Microsoft and from unwanted network traffic. 
