@@ -47,3 +47,32 @@ Performing a scan will scan files based on the newly updated threat definitions,
 
 ## Part 2: Windows Defender Firewall
 
+### Identify and configure firewall networks 
+
+To view the systems current firewall configurations, I navigate to the **Firewall & network protection**section of **Windows Security**.
+
+While there I verify that each of the firewall network protections are enabled: 
+	1. Domain
+	2. Private
+	3. Public
+
+![](Images/Pasted%20image%2020230722150418.png)
+
+Each one is enabled and currently does not have incoming connections blocked, as expected, and the only active network is a public network: 
+
+![](Images/Pasted%20image%2020230722150526.png)
+
+### Analyze and update firewall rules
+
+Using the **Allow an app through firewall** option in the **Firewall & network protection** settings, I analyze the currently allowed apps that can communicate through the firewall. 
+
+![](Images/Pasted%20image%2020230722150832.png)
+
+In this list I can see that Mozilla Firefox is currently only allowed to communicate on private networks: 
+
+![](Images/Pasted%20image%2020230722150943.png)
+
+I enable this app and allow it to communicate on public networks as well. 
+
+### Configure advanced security firewall rules
+
