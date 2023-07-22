@@ -76,3 +76,43 @@ I enable this app and allow it to communicate on public networks as well.
 
 ### Configure advanced security firewall rules
 
+Next I will navigate to the advanced security firewall rules where I can allow/deny inbound and outbound traffic. 
+
+![](Images/Pasted%20image%2020230722151808.png)
+
+For this project I want to: 
+	- Allow Key Management Service on domain and private networks 
+	- Block Key Management Service on public networks
+	- Block Windows Remote Management on public networks
+
+Before we enable Key Management Service I want to verify the above rules are in place by navigating to its **Advanced** properties. 
+
+First I will edit the existing Key Management Service **allow** rule to allow only domain and private networks.
+
+![](Images/Pasted%20image%2020230722153113.png)
+
+![](Images/Pasted%20image%2020230722152423.png)
+
+Then I will create a similar **block** rule that will block the public networks. 
+
+![](Images/Pasted%20image%2020230722152856.png)
+![](Images/Pasted%20image%2020230722153018.png)
+
+In the main panel I can confirm these were properly created and enabled: 
+
+![](Images/Pasted%20image%2020230722153507.png)
+
+Finally, I edit the existing Windows Remote Management public rule to instead block all communications: 
+
+![](Images/Pasted%20image%2020230722153812.png)
+
+## Summary
+
+In this project I analyzed and configured a system's existing Windows Defender Antivirus and Firewall settings. Based on the existing configurations I completed various tasks such as: 
+
+* Update Windows Defender Antivirus threat definitions
+* Run quick, full, and custom antivirus scans
+* Review antivirus threat history including quarantined and allowed threats
+- Configure allow/block firewall rules using Windows Defender Firewall with and without advanced security
+
+Now that these configurations are up to date, the system is much better protected against the latest known vulnerabilities defined by Microsoft and from unwanted network traffic. 
