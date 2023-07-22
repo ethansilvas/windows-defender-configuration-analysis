@@ -1,10 +1,12 @@
-In this project I review and update a system's Windows Defender antivirus and firewall configurations. 
+# Windows Defender Configuration Analysis
+
+In this project I review and update a system's Windows Defender antivirus and firewall configurations. To ensure that the system has the most up to date protections provided by Microsoft, I will analyze its antivirus and firewall settings and update them by performing tasks such as updating threat definitions and firewall rules. 
 
 ## Part 1: Windows Defender Antivirus
 
 ### Identify any current threats 
 
-First I will assess the current state of the system's antivirus and its configurations. 
+First I will assess the current state of the system's Windows antivirus and its configurations. 
 
 These settings can be found by navigating through: 
 	1. Click the Windows *Start* button 
